@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "https://brilliantdeltam.github.io/react-ruido/",
+  base: "https://brilliantdeltam.github.io/ruido-react-master/",
 })
