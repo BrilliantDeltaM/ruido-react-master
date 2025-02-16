@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home'; // Página de inicio sin Layout
-import Layout from './assets/Layout'; // Componente Layout
-import Murales from './pages/Murales';
-import Tienda from './pages/Tienda';
-import Eventos from './pages/Eventos';
-import Mural24 from './pages/Mural24';
-import Mural23 from './pages/Mural2023';
-import SeccionImagen from './assets/SeccionImagen';
+import Home from './pages/Home.jsx'; // Página de inicio sin Layout
+import Layout from './assets/layout.jsx'; // Componente Layout
+import Murales from './pages/Murales.jsx';
+import Tienda from './pages/Tienda.jsx';
+import Eventos from './pages/Eventos.jsx';
+import Mural24 from './pages/Mural24.jsx';
+import Mural23 from './pages/Mural2023.jsx';
+import SeccionImagen from './assets/SeccionImagen.jsx';
 
 function App() {
   return (

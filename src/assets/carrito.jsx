@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import OptionsHolder from "./menuOpciones";
+import OptionsHolder from "./menuOpciones.jsx";
 
 const Carrito = ({ carrito, setCarrito, onVolverClick }) => {
   const [opcionSeleccionada, setOpcionSeleccionada] = useState(""); // Estado para la opción seleccionada

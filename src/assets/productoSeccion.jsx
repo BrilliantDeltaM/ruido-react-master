@@ -1,6 +1,6 @@
 import React from "react";
-import ProductCard from "./productoCard";
-import products from "./producto";
+import ProductCard from "./productoCard.jsx";
+import products from "./producto.jsx";
 
 const ProductSection = ({ addToCart }) => {
   return (

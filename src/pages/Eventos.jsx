@@ -1,5 +1,5 @@
 import React from 'react';
-import EventList from '../assets/eventCard'; // Ajusta la ruta según tu estructura de carpetas
+import EventList from '../assets/eventCard.jsx'; // Ajusta la ruta según tu estructura de carpetas
 
 const EventosPage = () => {
 

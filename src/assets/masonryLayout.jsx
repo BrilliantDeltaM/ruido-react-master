@@ -1,7 +1,7 @@
 import React, {useCallback } from 'react';
 import Masonry from 'react-masonry-css';
 import { Link } from 'react-router-dom';
-import './MasonryLayout.css';
+import './masonryLayout.css';
 
 
 const MasonryLayout = ({ items }) => {
