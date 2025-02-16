@@ -33,7 +33,7 @@ function SeccionImagen() {
   const descripcion = descripciones[id] || "Descripción no disponible";
 
   // Ruta de la imagen basada en el `id`
-  const imageSrc = `./img/murales/${id}.webp`;
+  const imageSrc = `/img/murales/${id}.webp`;
 
   return (
     <div className="w-full min-h-screen p-8">
