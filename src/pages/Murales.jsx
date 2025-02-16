@@ -24,7 +24,8 @@ function Murales() {
     { src: '/img/murales/20.webp', alt: 'asdkask', id: 20 },
     { src: '/img/murales/21.webp', alt: 'asdkask', id: 21 },
     { src: '/img/murales/22.webp', alt: 'asdkask', id: 22 },
-    { src: '/img/murales/24.webp', alt: 'asdkask', id: 23},
+    { src: '/img/murales/23.webp', alt: 'asdkask', id: 23 },
+    { src: '/img/murales/24.webp', alt: 'asdkask', id: 24},
 
 
 
