@@ -10,8 +10,11 @@ import Mural23 from './pages/Mural2023.jsx';
 import SeccionImagen from './assets/SeccionImagen.jsx';
 
 function App() {
+  const isGitHubPages = import.meta.env.MODE === "production" && import.meta.env.BASE_URL !== "/";
+  const basename = isGitHubPages ? "/ruido-react-master" : "/";
+
   return (
-    <Router basename="/ruido-react-master">
+    <Router basename={basename}>
       <Routes>
         {/* Ruta para la página de inicio (sin Layout) */}
         <Route path="/" element={<Home />} />
