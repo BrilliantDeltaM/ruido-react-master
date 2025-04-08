@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.jsx'; // Página de inicio dentro del Layout
-import Layout from './assets/Layout.jsx'; // Componente Layout
+import Layout from './assets/Layout.jsx';
 import Murales from './pages/Murales.jsx';
 import Tienda from './pages/Tienda.tsx';
 import Eventos from './pages/Eventos.tsx';
