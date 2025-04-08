@@ -1,5 +1,5 @@
 import Navbar from './navbar.jsx';
-import Footer from './footer.js';
+import Footer from './Footer.tsx'
 import { Outlet } from 'react-router-dom';
 
 
