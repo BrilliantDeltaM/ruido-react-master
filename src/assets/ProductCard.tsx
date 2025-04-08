@@ -1,4 +1,3 @@
-// ProductCard.tsx
 import React, { memo } from 'react';
 import { Product } from '../types/producs.ts';
 

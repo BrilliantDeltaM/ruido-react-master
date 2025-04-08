@@ -1,4 +1,4 @@
-import MasonryLayout from '../assets/MasonryLayout.jsx';
+import MasonryLayout from '../assets/MasonryLayout';
 
 function Murales() {
 
@@ -33,8 +33,8 @@ function Murales() {
 
 
   ];
-
-    return (
+  
+  return (
       <div>
         <MasonryLayout items={items} />
       </div>
