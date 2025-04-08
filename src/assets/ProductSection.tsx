@@ -1,4 +1,3 @@
-// src/assets/ProductDetail.tsx
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Product, ProductProps } from '../types/producs.ts';

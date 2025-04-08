@@ -1,4 +1,4 @@
-import React, { ContextType, createContext, ReactNode, useContext, useReducer } from "react"
+import React, { ContextType, createContext, ReactNode, useContext, useReducer } from "react";
 
 interface Producto {
     id: number;
