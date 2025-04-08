@@ -37,7 +37,6 @@ function SeccionImagen() {
 
   return (
     <div className="w-full min-h-screen p-8">
-      {/* Contenedor de la imagen */}
       <div className="w-full h-[600px] md:aspect-video overflow-hidden rounded-lg shadow-lg">
         <img
           src={imageSrc}
@@ -46,7 +45,6 @@ function SeccionImagen() {
         />
       </div>
 
-      {/* Contenedor de la descripción */}
       <div className="mt-8 max-w-2xl mx-auto">
         <p className="text-gray-800 text-lg md:text-xl font-medium text-center leading-relaxed">
           {descripcion}

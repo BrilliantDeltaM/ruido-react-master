@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Option from "./opcion.jsx";
+import Option from "./Option.jsx";
 
 const OptionsHolder = ({ options, onSelect }) => {
   const [selectedOption, setSelectedOption] = useState(null);

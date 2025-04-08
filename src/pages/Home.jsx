@@ -4,17 +4,13 @@ import { Link } from 'react-router-dom';
 function Home() {
   return (
     <div className="relative bg-black text-white min-h-dvh overflow-hidden">
-      {/* GIF de fondo */}
       <img
-        src="./img/intro3.gif"
+        src="./img/RUIDOanimado3.gif"
         alt="Fondo animado"
         className="absolute top-0 left-0 w-full h-full object-cover sm:object-center object-[center_top] z-0"
       />
-
-      {/* Overlay para mejorar legibilidad */}
       <div className="absolute inset-0 bg-black bg-opacity-60 sm:bg-opacity-50 z-10"></div>
 
-      {/* Contenido */}
       <div className="container mx-auto px-4 py-16 sm:py-24 relative z-20">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl sm:text-7xl font-bold text-fluorescentYellow mb-6 sm:mb-8">

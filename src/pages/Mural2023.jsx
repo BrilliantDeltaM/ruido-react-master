@@ -1,4 +1,4 @@
-import Slider from '../assets/slider.jsx';
+
 
 function Mural23() {
   const images = [
