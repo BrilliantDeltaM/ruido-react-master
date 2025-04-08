@@ -1,5 +1,4 @@
-import MasonryLayout from '../assets/MasonryLayout';
-
+import MasonryLayout from "../assets/MasonryLayout.jsx";
 function Murales() {
 
   const items = [
