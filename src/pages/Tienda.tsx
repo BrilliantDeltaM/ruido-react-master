@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { useCarrito } from '../context/CarritoContext';
+import { useCarrito } from '../context/CarritoContext.tsx';
 import ProductCard from '../assets/ProductCard.tsx';
-import products from '../assets/producto';
+import products from '../assets/producto.jsx';
 import { useParams } from 'react-router-dom';
-import CategoryCard from '../assets/CategoryCard';
-import ProductSection from '../assets/ProductSection';
-import { Product } from '../types/producs';
+import CategoryCard from '../assets/CategoryCard.tsx';
+import ProductSection from '../assets/ProductSection.tsx';
+import { Product } from '../types/producs.ts';
 
 type SectionType = 'inicio' | 'abanicos' | 'remeras';
 

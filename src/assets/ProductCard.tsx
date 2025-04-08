@@ -1,6 +1,6 @@
 // ProductCard.tsx
 import React, { memo } from 'react';
-import { Product } from '../types/producs';
+import { Product } from '../types/producs.ts';
 
 interface ProductCardProps {
     product: Product;

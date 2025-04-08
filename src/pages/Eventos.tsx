@@ -1,6 +1,6 @@
 import React from 'react';
-import eventos from '../assets/eventos';
-import Slider from '../assets/Slider';
+import eventos from '../assets/eventos.ts';
+import Slider from '../assets/Slider.tsx';
 import { useNavigate, useParams } from 'react-router-dom';
 
 

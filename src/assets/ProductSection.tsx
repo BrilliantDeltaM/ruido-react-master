@@ -1,10 +1,10 @@
 // src/assets/ProductDetail.tsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Product, ProductProps } from '../types/producs';
-import ProductCard from './ProductCard';
+import { Product, ProductProps } from '../types/producs.ts';
+import ProductCard from './ProductCard.tsx';
 import { useNavigate } from 'react-router-dom';
-import products from './producto';
+import products from './producto.jsx';
 
 const ProductSection: React.FC<ProductProps> = ({ product, addToCart }) => {
   const navigate = useNavigate();
