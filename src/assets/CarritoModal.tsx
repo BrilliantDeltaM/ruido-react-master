@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useCarrito } from "../context/CarritoContext.tsx";
-import OptionsHolder from "./menuOpciones.jsx";
+import OptionsHolder from "./MenuOpciones.jsx";
 
 interface CarritoModalProps {
     isOpen: boolean;
