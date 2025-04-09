@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Login } from "./Login.tsx";
-import CarritoModal from "./carritoModal.tsx";
+import CarritoModal from "./CarritoModal.tsx";
 
 import {
   HiOutlineUserCircle,
@@ -9,8 +9,8 @@ import {
   HiBars3,
   HiChevronDown,
 } from "react-icons/hi2";
-import { useAuth } from "../context/AuthContext";
-import { useCarrito } from "../context/CarritoContext";
+import { useAuth } from "../context/AuthContext.tsx";
+import { useCarrito } from "../context/CarritoContext.tsx";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
