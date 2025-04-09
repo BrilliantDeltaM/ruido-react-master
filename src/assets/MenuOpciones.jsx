@@ -5,8 +5,8 @@ const OptionsHolder = ({ options, onSelect }) => {
   const [selectedOption, setSelectedOption] = useState(null);
 
   const handleSelect = (option) => {
-    setSelectedOption(option); // Guardamos la opción seleccionada completa
-    onSelect(option); // Enviamos el objeto completo al padre
+    setSelectedOption(option); 
+    onSelect(option); 
   };
 
   return (
@@ -15,7 +15,7 @@ const OptionsHolder = ({ options, onSelect }) => {
         <Option
           key={option.value}
           isSelected={selectedOption && selectedOption.value === option.value}
-          onClick={() => handleSelect(option)} // Pasamos la opción completa
+          onClick={() => handleSelect(option)} 
         >
           {option.label}
         </Option>

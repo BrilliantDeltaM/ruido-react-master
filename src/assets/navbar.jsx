@@ -92,7 +92,6 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Desktop menu */}
         <div className="mx-auto hidden md:flex justify-center items-center">
           <div className="flex justify-center space-x-8 items-center text-xl">
             <Link
@@ -128,7 +127,6 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Mobile menu */}
         {menuOpen && (
           <div className="md:hidden bg-black transition-all duration-300 ease-in-out">
             <Link
@@ -183,7 +181,6 @@ const Navbar = () => {
         )}
       </nav>
 
-      {/* Modals */}
       <Login isOpen={isLoginOpen} onClose={closeLogin} />
       <CarritoModal
         isOpen={isCartModalOpen}
