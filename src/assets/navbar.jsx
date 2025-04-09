@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Login } from "./Login.tsx";
 import CarritoModal from "./carritoModal.tsx";
+
 import {
   HiOutlineUserCircle,
   HiOutlineShoppingBag,
