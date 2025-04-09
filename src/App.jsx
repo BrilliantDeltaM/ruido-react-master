@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home.jsx'; // Página de inicio dentro del Layout
-import Layout from './assets/Layout.jsx';
+import Home from './pages/Home.jsx';
 import Murales from './pages/Murales.jsx';
+import Layout from './assets/Layout.jsx';
 import Tienda from './pages/Tienda.tsx';
 import Eventos from './pages/Eventos.tsx';
 import SeccionImagen from './assets/SeccionImagen.jsx';
@@ -18,7 +18,7 @@ function App() {
       <CarritoProvider>
       <Router basename={basename}>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/" element={<Layout/>}>
             <Route index element={<Home />} /> 
             <Route path="murales" element={<Murales />} />
             <Route path="murales/:id" element={<SeccionImagen />} />
